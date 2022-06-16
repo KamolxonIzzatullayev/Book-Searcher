@@ -10,8 +10,10 @@
           v-model="userName"
           @keyup="checkvalidate"
         />
-        <p :style="{color: validateStyle ? 'red' : 'black'}">
-          <i> Info: Don't use numbers, cyrillic symbols and any special characters</i> 
+        <p :style="{ color: validateStyle ? 'red' : 'black' }">
+          <i>
+            Info: Don't use numbers, cyrillic symbols and any special characters
+          </i>
         </p>
         <div class="login-btn">
           <button @click="checkvalidate">
@@ -29,12 +31,12 @@ export default {
     return {
       isValidate: false,
       userName: "",
-      validateStyle: false
+      validateStyle: false,
     };
   },
   methods: {
     checkvalidate() {
-      let a = /[a-zA-Z]+/
+      let a = /[a-zA-Z]+/;
 
       if (a.test(this.userName)) {
         this.isValidate = true;
@@ -43,7 +45,7 @@ export default {
         this.isValidate = false;
         this.validateStyle = true;
       }
-    }
+    },
   },
 };
 </script>

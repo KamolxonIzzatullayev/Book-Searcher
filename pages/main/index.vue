@@ -2,7 +2,11 @@
   <div class="main">
     <h1>Welcome to the book searcher !!!</h1>
     <div class="search">
-      <input type="text" placeholder="Search for books, tutorials, manuals and authors" v-model="bookInput" />
+      <input
+        type="text"
+        placeholder="Search for books, tutorials, manuals and authors"
+        v-model="bookInput"
+      />
       <button @click="loadData">Find books</button>
     </div>
     <div class="result">

@@ -6,10 +6,12 @@
     <div class="book-info">
       <h2>{{ title }}</h2>
       <div class="book-authors">
-        <span class="authors"> {{ authors ? 'By ' + authors.join(", ") : '' }}</span>
+        <span class="authors">
+          {{ authors ? "By " + authors.join(", ") : "" }}</span
+        >
       </div>
       <div class="book-extra">
-        <span class="pageCount">{{ pageCount }} pages | </span> 
+        <span class="pageCount">{{ pageCount }} pages | </span>
         <span class="publishedDate">{{ publishedDate }}</span>
       </div>
     </div>
@@ -47,6 +49,6 @@ export default {
 }
 
 .book-extra {
-    margin: 1rem 0;
+  margin: 1rem 0;
 }
 </style>
