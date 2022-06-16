@@ -3,12 +3,14 @@
     "name": "main",
     "path": "/main",
     "component": "/Users/kamolxonizzatullayev/Desktop/Book-Searcher/pages/main/index.vue",
-    "chunkName": "pages/main/index"
+    "chunkName": "pages/main/index",
+    "_name": "_79e55cf2"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/kamolxonizzatullayev/Desktop/Book-Searcher/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_475d7c4c"
   }
 ]
